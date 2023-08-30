@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+    <title>{{seasonname}}</title>
+{% endblock %}
+
+{% block content %}
+{% include "season/includes/header.html" %}
+    <h3>Welcome to the Seasons of Middle-west India : {{seasonname}}</h3>
+    <p>{{seasonmonths}}</p>
+    <!--<dl>
+        <dt><u>Summer Season.</u></dt>
+        <dd>The summer season in this state of India starts from March and stays till the month of May. 
+            Maharashtra temperature staying between the range of 22°C to 39°C.</dd>
+        <dt><u>Rainy Season.</u></dt>
+        <dd>The season of monsoon hits Maharashtra from around mid-June to late September. 
+            The entire state is covered in rolling clouds that pelt down in forms of drizzle and showers.</dd>
+        <dt><u>Winter Season</u></dt>
+        <dd>October to February is the winter season in Maharashtra. 
+            This is the perfect time to go around the state since winters are mild here.
+            The mercury lurks between 12 to 25 degrees Celcius.</dd>
+    </dl>>-->
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_title %}
+    <title>Seasons list</title>
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "season/includes/header3.css" %}">
+{% endblock %}
+
+{% block content %}
+{% include "season/includes/header.html" %}
+    <ul>
+        {% for i in season_list %}
+        <li><a href = "/seasons/{{i}}">{{i|title}}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

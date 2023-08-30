@@ -1,0 +1,20 @@
+/* header {
+    background-color: burlywood;
+    width: 130px;
+    text-align: center;
+    margin-left: 7%;
+}
+
+a {
+    color: darkblue;
+} */
+
+header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+a{
+    font-variant: all-petite-caps;
+    color: black;
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+    <title>{{week_days}}</title>
+{% endblock %}
+
+{% block content %}
+{% include "week/includes/header.html" %}
+    <h1>Welcome to the week details : {{week_days}}</h1>
+    <p>{{weektext}}</p>
+{% endblock %}

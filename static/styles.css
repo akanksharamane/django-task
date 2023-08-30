@@ -1,0 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
+
+html{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+} */
+
+html {
+    font-family: system-ui;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    margin-left: 9%;
+}
+
+li{
+    margin-left: 2%;
+    border: 2px solid;
+    padding: 2%;
+    border-style: inset;
+    border-color: red;
+}
+
+a{
+    font-variant: all-petite-caps;
+    color: black;
+}

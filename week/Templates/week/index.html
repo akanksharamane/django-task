@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "week/includes/header2.css" %}">
+{% endblock %}
+
+{% block page_title %}
+    <title>Week Days List</title>
+{% endblock %}
+
+{% block content %}
+{% include "week/includes/header.html" %}
+    <ul>
+        {% for i in weekdays_list %}
+        <li><a href = {% url "week-name" i %}>{{i|title}}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+    
+    
+    

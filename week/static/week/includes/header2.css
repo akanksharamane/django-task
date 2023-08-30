@@ -1,0 +1,17 @@
+/* header{
+    font-family: cursive;
+    background-color: antiquewhite;
+    width: 15%;
+    border: solid #847ebf;
+    border-block-width: 1px;
+} */
+
+header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+a{
+    font-variant: all-petite-caps;
+    color: black;
+}

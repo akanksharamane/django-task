@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_title %}
+    <title>{{monthname|title}}</title>
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "month/month2.css" %}">
+    <link rel="stylesheet" href="{% static "month/includes/header1.css" %}">
+{% endblock %}
+
+{% block content %}
+{% include "month/includes/header.html" %}
+    <h3>Welcome to month details : {{monthname|title}}</h3>
+    {% if monthtext is not None %}
+        <p>{{monthtext|title}}</p>
+    {% else %}
+        <p>There is no value for this month.</p>
+    {% endif %}
+{% endblock %}

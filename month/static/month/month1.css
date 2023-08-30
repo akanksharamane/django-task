@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    margin-left: 9%;
+}
+
+li{
+    margin-left: 2%;
+    border: 2px solid;
+    padding: 2%;
+    border-style: solid;
+    border-color: rgb(134, 59, 59);
+}
+
+a{
+    font-variant: all-petite-caps;
+    color: black;
+}
